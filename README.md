@@ -5,11 +5,14 @@ This is the readme file for Getting & cleaning data project.
 The code is written to filter the data and dervie the required parameters as outlined in project instructions.
 
 Pre-requisite to or before executing the code:
+
 1. This code is developed in Rstudio Version 0.98.1103 
 
-2. The folders containing the data downloaded for the project should not be renamed.
+2. The script assumes that the required data is already downloaded and available. There is no exclusive check coded to ensure that the data exists or not.
+
+3. The folders containing the data downloaded for the project should not be renamed.
  
-3. Place the run_analysis.R script and the folder having data to processed in your working directory 
+4. Place the run_analysis.R script and the folder having data to processed in your working directory 
 
 
 Below procedure indicate how the code works:
