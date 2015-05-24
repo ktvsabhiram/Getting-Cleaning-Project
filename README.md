@@ -6,13 +6,19 @@ The code is written to filter the data and dervie the required parameters as out
 
 Pre-requisite to or before executing the code:
 1. This code is developed in Rstudio Version 0.98.1103 
+2. 
 2. The folders containing the data downloaded for the project should not be renamed.
+3. 
 3. Place the run_analysis.R script and the folder having data to processed in your working directory 
+4. 
 
 Below procedure indicate how the code works:
 1: Reads the training data set with the subject, activity & measurements taken. These are binded to train_Set data frame
+
 2: Reads the test data set with the subject, activity & measurements taken. These are binded to test_Set data frame
+
 3: Merges training & test data set into single set "Samsung_Data"
+
 4: Adds column names for subject ID, Activity & each measurement. With this, the Samsung_Data becomes the raw combined data set with column names as required by step#1 of project instruction (Step4 of instruction)
 5. Creates a filter to extract data for variables containing "mean" & "std" keywords and then extracts data frame "Samsung_Data_Mean_Std" as per this filter (Step#2 of instructions)
 6. Adds activity description column to represent each activity ID and re-orgranizes data frame to have activity ID & activity description in adjacent columns (step#3 of instruction)
